@@ -17,4 +17,15 @@ func main() {
 	} else {
 		fmt.Println("> Invalid Input")
 	}
+	// Switch Statement
+	carEngine := 0
+	fmt.Scanln(&carEngine)
+	switch carEngine {
+	case 1 :
+		fmt.Println("Start")
+	case 2 :
+		fmt.Println("Stop")
+	default :
+		fmt.Println("Unknown Input")
+	}
 }
